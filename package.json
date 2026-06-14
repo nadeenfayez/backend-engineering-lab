@@ -1,0 +1,20 @@
+{
+  "name": "backend-engineering-lab",
+  "version": "1.0.0",
+  "description": "A learning repository for practicing backend engineering concepts including SOLID principles, clean code, design patterns, and software architecture.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "backend",
+    "solid-principles",
+    "clean-code",
+    "design-patterns",
+    "software-architecture"
+  ],
+  "author": "Nadeen Fayez",
+  "license": "MIT"
+}
