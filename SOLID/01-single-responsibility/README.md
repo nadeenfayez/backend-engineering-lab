@@ -48,3 +48,16 @@ Separate responsibilities:
 - User -> stores data
 - AuthService -> handles authentication
 - UserRepository -> handles storage
+
+
+### Example 4 - Calorie Tracker
+
+Problem:
+CalorieTracker class handles:
+- Tracking calories
+- Logging messages
+
+Solution:
+Separate responsibilities:
+- CalorieTracker -> manages calorie limits and tracking logic
+- Logger -> handles displaying messages
