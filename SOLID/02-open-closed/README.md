@@ -48,3 +48,23 @@ Separate responsibilities:
 - Specific question classes -> provide their own display implementation
 
 New question types can be added without modifying existing code.
+
+
+### Example 3 - Discounts
+
+Problem:
+calcPrice function handles:
+- Calculating the final price
+- Deciding which discount calculation should be applied using conditional statements
+
+Adding a new discount type requires modifying the calcPrice function.
+
+Solution:
+Use polymorphism and create separate discount classes.
+
+Separate responsibilities:
+- calcPrice -> applies any discount type
+- Discount -> defines the discount behavior
+- Specific discount classes -> provide their own calculation logic
+
+New discounts can be added without modifying existing code.

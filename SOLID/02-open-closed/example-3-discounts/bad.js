@@ -1,4 +1,4 @@
-function calcPrice(price, discount) {
+function calculateFinalPrice(price, discount) {
     if (discount == '50%') {
         return price * 0.5;
     }
@@ -19,6 +19,6 @@ function calcPrice(price, discount) {
 
 // Test
 
-const discountValue = calcPrice(1000, '60%');
+const finalPrice = calculateFinalPrice(1000, '60%');
 
-console.log(discountValue);
+console.log(finalPrice);
