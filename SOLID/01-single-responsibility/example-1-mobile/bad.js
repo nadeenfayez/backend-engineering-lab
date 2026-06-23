@@ -5,6 +5,7 @@ class Mobile {
         this.model = model;
     }
 
+
     start(battery) {
         if (battery === 0) {
             return this.log(`Your mobile (${this.name} - ${this.model}) is dead.`);
@@ -12,6 +13,7 @@ class Mobile {
 
         this.log(`Your mobile (${this.name} - ${this.model}) is starting..`);
     }
+
 
     log(message) {
         console.log(message);

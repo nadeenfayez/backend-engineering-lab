@@ -14,6 +14,7 @@ class CalorieTracker {
         }
     }
 
+
     log(message) {
         console.log(message);
     }
